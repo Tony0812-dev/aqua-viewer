@@ -1,18 +1,21 @@
 # AquaViewer
+TLDR: this fork will not be updated.
 
-A WebUI for AQUA Server
+You can still read old readme [here](README_project.md).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+## Important notice
+It was a great opportunity for hardening my skills and learning how production system works, but recently I lost my motivation toward maintaining this code. I thought it will be better to make official statement now for the good.
 
-## Self Host
-Due to modern browser's security restriction, there is no simple way to self host like old days.
+I'd like to thank everyone for supporting my development and use their time for trying this little project.
 
-- To serve local instance: install NodeJS and required dependencies respectively then run `ng serve`.
+## What will happen after this?
+Server (that you are running) will still function and its source code will preserved here even after this notice. However, issues and pull requests will not be closed and resolved. Future version of (supported) game might not work.
 
-- To build: same as above but run `ng build --configuration=production`.
+## Will this impact other Aqua forks or "online Aqua"?
+No.
 
-- For use with Aqua server: `ng build --configuration=production --base-href /web/`
+## What are my other options?
+I'd like to recommend using [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis). It's more robust and easily expandable using power of Python language. Also, maintainers are active and nice ;)
 
-For static images, place them into assets folder. Otherwise, all related images won't display.
-
-Please follow the [deployment guide](https://angular.io/guide/deployment) if you are new to angular.
+### Can I migrate to ARTEMiS?
+There is [AQUA-to-ARTEMiS](https://gitea.tendokyu.moe/Dniel97/AQUA-to-ARTEMiS) project. However, I can't test if it still works with latest version.
