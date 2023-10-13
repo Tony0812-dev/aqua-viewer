@@ -19,7 +19,7 @@ jobs:
     - name: Build
       run: |
         npm install && npm install -g @angular/cli
-        ng build -c production
+        ng build -c production --base-href /web/
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.3
